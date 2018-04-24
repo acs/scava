@@ -1,6 +1,6 @@
 package org.eclipse.scava.repository;
 
-import org.eclipse.scava.ScavaadministrationApp;
+import org.eclipse.scava.ScavaAdministrationApp;
 import org.eclipse.scava.config.Constants;
 import org.eclipse.scava.config.audit.AuditEventConverter;
 import org.eclipse.scava.domain.PersistentAuditEvent;
@@ -31,7 +31,7 @@ import static org.eclipse.scava.repository.CustomAuditEventRepository.EVENT_DATA
  * @see CustomAuditEventRepository
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = ScavaadministrationApp.class)
+@SpringBootTest(classes = ScavaAdministrationApp.class)
 public class CustomAuditEventRepositoryIntTest {
 
     @Autowired

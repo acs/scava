@@ -1,6 +1,6 @@
 package org.eclipse.scava.web.rest;
 
-import org.eclipse.scava.ScavaadministrationApp;
+import org.eclipse.scava.ScavaAdministrationApp;
 import org.eclipse.scava.domain.User;
 import org.eclipse.scava.repository.UserRepository;
 import org.eclipse.scava.security.jwt.TokenProvider;
@@ -31,7 +31,7 @@ import static org.hamcrest.Matchers.not;
  * @see UserJWTController
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = ScavaadministrationApp.class)
+@SpringBootTest(classes = ScavaAdministrationApp.class)
 public class UserJWTControllerIntTest {
 
     @Autowired

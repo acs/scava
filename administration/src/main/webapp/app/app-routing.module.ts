@@ -16,4 +16,4 @@ const LAYOUT_ROUTES = [
         RouterModule
     ]
 })
-export class ScavaadministrationAppRoutingModule {}
+export class ScavaAdministrationAppRoutingModule {}

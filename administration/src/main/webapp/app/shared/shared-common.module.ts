@@ -4,14 +4,14 @@ import { registerLocaleData } from '@angular/common';
 import locale from '@angular/common/locales/en';
 
 import {
-    ScavaadministrationSharedLibsModule,
+    ScavaAdministrationSharedLibsModule,
     JhiAlertComponent,
     JhiAlertErrorComponent
 } from './';
 
 @NgModule({
     imports: [
-        ScavaadministrationSharedLibsModule
+        ScavaAdministrationSharedLibsModule
     ],
     declarations: [
         JhiAlertComponent,
@@ -25,12 +25,12 @@ import {
         },
     ],
     exports: [
-        ScavaadministrationSharedLibsModule,
+        ScavaAdministrationSharedLibsModule,
         JhiAlertComponent,
         JhiAlertErrorComponent
     ]
 })
-export class ScavaadministrationSharedCommonModule {
+export class ScavaAdministrationSharedCommonModule {
     constructor() {
         registerLocaleData(locale);
     }

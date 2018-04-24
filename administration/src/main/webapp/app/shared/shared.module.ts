@@ -2,8 +2,8 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { DatePipe } from '@angular/common';
 
 import {
-    ScavaadministrationSharedLibsModule,
-    ScavaadministrationSharedCommonModule,
+    ScavaAdministrationSharedLibsModule,
+    ScavaAdministrationSharedCommonModule,
     CSRFService,
     AuthServerProvider,
     AccountService,
@@ -18,8 +18,8 @@ import {
 
 @NgModule({
     imports: [
-        ScavaadministrationSharedLibsModule,
-        ScavaadministrationSharedCommonModule
+        ScavaAdministrationSharedLibsModule,
+        ScavaAdministrationSharedCommonModule
     ],
     declarations: [
         JhiLoginModalComponent,
@@ -38,7 +38,7 @@ import {
     ],
     entryComponents: [JhiLoginModalComponent],
     exports: [
-        ScavaadministrationSharedCommonModule,
+        ScavaAdministrationSharedCommonModule,
         JhiLoginModalComponent,
         HasAnyAuthorityDirective,
         DatePipe
@@ -46,4 +46,4 @@ import {
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 
 })
-export class ScavaadministrationSharedModule {}
+export class ScavaAdministrationSharedModule {}

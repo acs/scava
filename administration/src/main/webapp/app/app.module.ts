@@ -10,12 +10,12 @@ import { AuthInterceptor } from './blocks/interceptor/auth.interceptor';
 import { AuthExpiredInterceptor } from './blocks/interceptor/auth-expired.interceptor';
 import { ErrorHandlerInterceptor } from './blocks/interceptor/errorhandler.interceptor';
 import { NotificationInterceptor } from './blocks/interceptor/notification.interceptor';
-import { ScavaadministrationSharedModule, UserRouteAccessService } from './shared';
-import { ScavaadministrationAppRoutingModule} from './app-routing.module';
-import { ScavaadministrationHomeModule } from './home/home.module';
-import { ScavaadministrationAdminModule } from './admin/admin.module';
-import { ScavaadministrationAccountModule } from './account/account.module';
-import { ScavaadministrationEntityModule } from './entities/entity.module';
+import { ScavaAdministrationSharedModule, UserRouteAccessService } from './shared';
+import { ScavaAdministrationAppRoutingModule} from './app-routing.module';
+import { ScavaAdministrationHomeModule } from './home/home.module';
+import { ScavaAdministrationAdminModule } from './admin/admin.module';
+import { ScavaAdministrationAccountModule } from './account/account.module';
+import { ScavaAdministrationEntityModule } from './entities/entity.module';
 import { PaginationConfig } from './blocks/config/uib-pagination.config';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import {
@@ -30,13 +30,13 @@ import {
 @NgModule({
     imports: [
         BrowserModule,
-        ScavaadministrationAppRoutingModule,
+        ScavaAdministrationAppRoutingModule,
         Ng2Webstorage.forRoot({ prefix: 'jhi', separator: '-'}),
-        ScavaadministrationSharedModule,
-        ScavaadministrationHomeModule,
-        ScavaadministrationAdminModule,
-        ScavaadministrationAccountModule,
-        ScavaadministrationEntityModule,
+        ScavaAdministrationSharedModule,
+        ScavaAdministrationHomeModule,
+        ScavaAdministrationAdminModule,
+        ScavaAdministrationAccountModule,
+        ScavaAdministrationEntityModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [
@@ -86,4 +86,4 @@ import {
     ],
     bootstrap: [ JhiMainComponent ]
 })
-export class ScavaadministrationAppModule {}
+export class ScavaAdministrationAppModule {}

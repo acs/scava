@@ -1,10 +1,10 @@
 org/eclipse/scava/config/Constants.class
 org/eclipse/scava/config/AsyncConfiguration.class
 org/eclipse/scava/service/MailService.class
-org/eclipse/scava/ScavaadministrationApp.class
 org/eclipse/scava/security/SecurityUtils.class
 org/eclipse/scava/security/DomainUserDetailsService.class
 org/eclipse/scava/security/SpringSecurityAuditorAware.class
+org/eclipse/scava/ScavaAdministrationApp.class
 org/eclipse/scava/config/dbmigrations/InitialSetupMigration.class
 org/eclipse/scava/web/rest/UserJWTController$JWTToken.class
 org/eclipse/scava/web/rest/util/PaginationUtil.class

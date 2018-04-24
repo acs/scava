@@ -1,6 +1,6 @@
 package org.eclipse.scava.web.rest;
 
-import org.eclipse.scava.ScavaadministrationApp;
+import org.eclipse.scava.ScavaAdministrationApp;
 import org.eclipse.scava.web.rest.vm.LoggerVM;
 import ch.qos.logback.classic.AsyncAppender;
 import ch.qos.logback.classic.LoggerContext;
@@ -27,7 +27,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see LogsResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = ScavaadministrationApp.class)
+@SpringBootTest(classes = ScavaAdministrationApp.class)
 public class LogsResourceIntTest {
 
     private MockMvc restLogsMockMvc;

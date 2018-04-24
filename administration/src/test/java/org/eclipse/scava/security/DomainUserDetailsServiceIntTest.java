@@ -1,6 +1,6 @@
 package org.eclipse.scava.security;
 
-import org.eclipse.scava.ScavaadministrationApp;
+import org.eclipse.scava.ScavaAdministrationApp;
 import org.eclipse.scava.domain.User;
 import org.eclipse.scava.repository.UserRepository;
 
@@ -24,7 +24,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * @see DomainUserDetailsService
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = ScavaadministrationApp.class)
+@SpringBootTest(classes = ScavaAdministrationApp.class)
 public class DomainUserDetailsServiceIntTest {
 
     private static final String USER_ONE_LOGIN = "test-user-one";

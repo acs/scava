@@ -1,6 +1,6 @@
 {
-  "name": "Scavaadministration",
-  "short_name": "Scavaadministration",
+  "name": "ScavaAdministration",
+  "short_name": "ScavaAdministration",
   "icons": [
       {
           "src": "./content/images/logo-jhipster.png",

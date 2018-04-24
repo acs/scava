@@ -23,18 +23,18 @@ import java.util.Collection;
 @ComponentScan
 @EnableAutoConfiguration(exclude = {MetricFilterAutoConfiguration.class, MetricRepositoryAutoConfiguration.class})
 @EnableConfigurationProperties({ApplicationProperties.class})
-public class ScavaadministrationApp {
+public class ScavaAdministrationApp {
 
-    private static final Logger log = LoggerFactory.getLogger(ScavaadministrationApp.class);
+    private static final Logger log = LoggerFactory.getLogger(ScavaAdministrationApp.class);
 
     private final Environment env;
 
-    public ScavaadministrationApp(Environment env) {
+    public ScavaAdministrationApp(Environment env) {
         this.env = env;
     }
 
     /**
-     * Initializes scavaadministration.
+     * Initializes ScavaAdministration.
      * <p>
      * Spring profiles can be configured with a program arguments --spring.profiles.active=your-active-profile
      * <p>
@@ -60,7 +60,7 @@ public class ScavaadministrationApp {
      * @throws UnknownHostException if the local host name could not be resolved into an address
      */
     public static void main(String[] args) throws UnknownHostException {
-        SpringApplication app = new SpringApplication(ScavaadministrationApp.class);
+        SpringApplication app = new SpringApplication(ScavaAdministrationApp.class);
         DefaultProfileUtil.addDefaultProfile(app);
         Environment env = app.run(args).getEnvironment();
         String protocol = "http";

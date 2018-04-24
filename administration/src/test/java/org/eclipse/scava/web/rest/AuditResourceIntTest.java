@@ -1,6 +1,6 @@
 package org.eclipse.scava.web.rest;
 
-import org.eclipse.scava.ScavaadministrationApp;
+import org.eclipse.scava.ScavaAdministrationApp;
 import org.eclipse.scava.config.audit.AuditEventConverter;
 import org.eclipse.scava.domain.PersistentAuditEvent;
 import org.eclipse.scava.repository.PersistenceAuditEventRepository;
@@ -32,7 +32,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see AuditResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = ScavaadministrationApp.class)
+@SpringBootTest(classes = ScavaAdministrationApp.class)
 public class AuditResourceIntTest {
 
     private static final String SAMPLE_PRINCIPAL = "SAMPLE_PRINCIPAL";

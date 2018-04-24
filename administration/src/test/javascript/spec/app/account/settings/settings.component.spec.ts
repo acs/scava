@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed, async } from '@angular/core/testing';
 import { Observable } from 'rxjs/Observable';
 
-import { ScavaadministrationTestModule } from '../../../test.module';
+import { ScavaAdministrationTestModule } from '../../../test.module';
 import { Principal, AccountService } from '../../../../../../main/webapp/app/shared';
 import { SettingsComponent } from '../../../../../../main/webapp/app/account/settings/settings.component';
 
@@ -16,7 +16,7 @@ describe('Component Tests', () => {
 
         beforeEach(async(() => {
             TestBed.configureTestingModule({
-                imports: [ScavaadministrationTestModule],
+                imports: [ScavaAdministrationTestModule],
                 declarations: [SettingsComponent],
                 providers: [
                 ]

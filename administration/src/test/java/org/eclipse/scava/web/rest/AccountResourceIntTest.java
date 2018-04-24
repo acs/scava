@@ -1,7 +1,7 @@
 package org.eclipse.scava.web.rest;
 
 import org.eclipse.scava.config.Constants;
-import org.eclipse.scava.ScavaadministrationApp;
+import org.eclipse.scava.ScavaAdministrationApp;
 import org.eclipse.scava.domain.Authority;
 import org.eclipse.scava.domain.User;
 import org.eclipse.scava.repository.AuthorityRepository;
@@ -48,7 +48,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see AccountResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = ScavaadministrationApp.class)
+@SpringBootTest(classes = ScavaAdministrationApp.class)
 public class AccountResourceIntTest {
 
     @Autowired

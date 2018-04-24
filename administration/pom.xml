@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.eclipse.scava</groupId>
-    <artifactId>scavaadministration</artifactId>
+    <artifactId>scava-administration</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>Scavaadministration</name>
+    <name>Scava Administration</name>
 
     <properties>
         <!-- Build properties -->

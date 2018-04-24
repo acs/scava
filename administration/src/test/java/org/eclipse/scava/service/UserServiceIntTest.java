@@ -1,6 +1,6 @@
 package org.eclipse.scava.service;
 
-import org.eclipse.scava.ScavaadministrationApp;
+import org.eclipse.scava.ScavaAdministrationApp;
 import org.eclipse.scava.config.Constants;
 import org.eclipse.scava.domain.User;
 import org.eclipse.scava.repository.UserRepository;
@@ -30,7 +30,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * @see UserService
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = ScavaadministrationApp.class)
+@SpringBootTest(classes = ScavaAdministrationApp.class)
 public class UserServiceIntTest {
 
     @Autowired
