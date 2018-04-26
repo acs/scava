@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="template">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/migration/third-party/org.svnkit/org/tmatesoft/svn/core/io/repository/template.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

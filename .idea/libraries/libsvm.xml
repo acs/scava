@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="libsvm">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/metric-platform/metric-providers/org.eclipse.scava.libsvm.dependencies/libsvm.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

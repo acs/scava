@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="php-analysis">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/metric-platform/platform/org.eclipse.scava.code.model/org.crossmeter.code.model.php/lib/php-analysis.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

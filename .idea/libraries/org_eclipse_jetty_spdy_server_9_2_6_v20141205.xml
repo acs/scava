@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.eclipse.jetty.spdy.server_9.2.6.v20141205">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/migration/third-party/org.eclipse.jetty.spdy.server/org.eclipse.jetty.spdy.server_9.2.6.v20141205.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

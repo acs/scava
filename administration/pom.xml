@@ -282,6 +282,13 @@
             <artifactId>spring-security-data</artifactId>
         </dependency>
         <!-- jhipster-needle-maven-add-dependency -->
+        
+        <!-- Pongo -->
+        <dependency>
+        	<groupId>org.eclipse.scava.repository.model</groupId>
+        	<artifactId>pongo-all</artifactId>
+        	<version>1.0</version>
+        </dependency>
     </dependencies>
 
     <build>

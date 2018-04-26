@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.eclipse.scava.metricprovider.downloadcounter.github.dependencies">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/metric-platform/metric-providers/org.eclipse.scava.metricprovider.downloadcounter.github.dependencies/org.eclipse.egit.github.core-2.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/metric-platform/metric-providers/org.eclipse.scava.metricprovider.downloadcounter.github.dependencies/gson-2.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

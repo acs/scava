@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="classifierFiles">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/metric-platform/metric-providers/org.eclipse.scava.severityclassifier.opennlptartarus.libsvm/classifierFiles/threadClassification_all5_featureList_20.zip!/" />
+      <root url="jar://$PROJECT_DIR$/metric-platform/metric-providers/org.eclipse.scava.severityclassifier.opennlptartarus.libsvm/classifierFiles/threadClassification_all5_featureList_5.zip!/" />
+      <root url="jar://$PROJECT_DIR$/metric-platform/metric-providers/org.eclipse.scava.severityclassifier.opennlptartarus.libsvm/classifierFiles/Test-ThreadClustering-5.m.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

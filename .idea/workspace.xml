@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="532b5a33-c89e-4625-8544-52ff145914db" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/administration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/administration/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/administration/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/ApplicationWebXml.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/ApplicationWebXml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/aop/logging/LoggingAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/aop/logging/LoggingAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/ApplicationProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/ApplicationProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/AsyncConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/AsyncConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/CloudDatabaseConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/CloudDatabaseConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/DatabaseConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/DatabaseConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/DateTimeFormatConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/DateTimeFormatConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/DefaultProfileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/DefaultProfileUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/JacksonConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/JacksonConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/LocaleConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/LocaleConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/LoggingAspectConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/LoggingAspectConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/LoggingConfiguration$LogbackLoggerContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/LoggingConfiguration$LogbackLoggerContextListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/LoggingConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/LoggingConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/MetricsConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/MetricsConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/SecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/ThymeleafConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/ThymeleafConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/WebConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/WebConfigurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/audit/AuditEventConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/audit/AuditEventConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/dbmigrations/InitialSetupMigration.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/config/dbmigrations/InitialSetupMigration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/domain/AbstractAuditingEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/domain/AbstractAuditingEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/domain/Authority.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/domain/Authority.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/domain/PersistentAuditEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/domain/PersistentAuditEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/repository/AuthorityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/repository/AuthorityRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/repository/CustomAuditEventRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/repository/CustomAuditEventRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/repository/PersistenceAuditEventRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/repository/PersistenceAuditEventRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/security/AuthoritiesConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/security/AuthoritiesConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/security/DomainUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/security/DomainUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/security/SecurityUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/security/SecurityUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/security/SpringSecurityAuditorAware.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/security/SpringSecurityAuditorAware.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/security/UserNotActivatedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/security/UserNotActivatedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/security/jwt/JWTConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/security/jwt/JWTConfigurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/security/jwt/JWTFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/security/jwt/JWTFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/security/jwt/TokenProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/security/jwt/TokenProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/service/AuditEventService.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/service/AuditEventService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/service/MailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/service/MailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/service/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/service/dto/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/service/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/service/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/service/util/RandomUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/service/util/RandomUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/AccountResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/AccountResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/AuditResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/AuditResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/LogsResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/LogsResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/ProfileInfoResource$ProfileInfoVM.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/ProfileInfoResource$ProfileInfoVM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/ProfileInfoResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/ProfileInfoResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/UserJWTController$JWTToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/UserJWTController$JWTToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/UserJWTController.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/UserJWTController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/UserResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/UserResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/BadRequestAlertException.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/BadRequestAlertException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/CustomParameterizedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/CustomParameterizedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/EmailAlreadyUsedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/EmailAlreadyUsedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/EmailNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/EmailNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/ErrorConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/ErrorConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/ExceptionTranslator.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/ExceptionTranslator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/FieldErrorVM.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/FieldErrorVM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/InternalServerErrorException.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/InternalServerErrorException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/InvalidPasswordException.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/InvalidPasswordException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/LoginAlreadyUsedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/errors/LoginAlreadyUsedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/util/HeaderUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/util/HeaderUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/util/PaginationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/util/PaginationUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/vm/KeyAndPasswordVM.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/vm/KeyAndPasswordVM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/vm/LoggerVM.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/vm/LoggerVM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/vm/LoginVM.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/vm/LoginVM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/vm/ManagedUserVM.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/classes/org/eclipse/scava/web/rest/vm/ManagedUserVM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/config/WebConfigurerTest$MockFilterRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/config/WebConfigurerTest$MockFilterRegistration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/config/WebConfigurerTest$MockServletRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/config/WebConfigurerTest$MockServletRegistration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/config/WebConfigurerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/config/WebConfigurerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/config/WebConfigurerTestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/config/WebConfigurerTestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/repository/CustomAuditEventRepositoryIntTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/repository/CustomAuditEventRepositoryIntTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/security/DomainUserDetailsServiceIntTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/security/DomainUserDetailsServiceIntTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/security/SecurityUtilsUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/security/SecurityUtilsUnitTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/security/jwt/JWTFilterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/security/jwt/JWTFilterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/security/jwt/TokenProviderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/security/jwt/TokenProviderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/service/MailServiceIntTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/service/MailServiceIntTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/service/UserServiceIntTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/service/UserServiceIntTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/AccountResourceIntTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/AccountResourceIntTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/AuditResourceIntTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/AuditResourceIntTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/LogsResourceIntTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/LogsResourceIntTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/ProfileInfoResourceIntTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/ProfileInfoResourceIntTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/TestUtil$ZonedDateTimeMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/TestUtil$ZonedDateTimeMatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/TestUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/TestUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/UserJWTControllerIntTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/UserJWTControllerIntTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/UserResourceIntTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/UserResourceIntTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/errors/ExceptionTranslatorIntTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/errors/ExceptionTranslatorIntTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/errors/ExceptionTranslatorTestController$TestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/errors/ExceptionTranslatorTestController$TestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/errors/ExceptionTranslatorTestController$TestResponseStatusException.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/errors/ExceptionTranslatorTestController$TestResponseStatusException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/errors/ExceptionTranslatorTestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/errors/ExceptionTranslatorTestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/util/PaginationUtilUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/administration/target/test-classes/org/eclipse/scava/web/rest/util/PaginationUtilUnitTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="1024" />
+    <option name="height" value="741" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="532b5a33-c89e-4625-8544-52ff145914db" name="Default" comment="" />
+      <created>1524579889865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524579889865</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1024" height="741" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>

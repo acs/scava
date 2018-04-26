@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/metric-platform/platform-extensions/org.eclipse.scava.platform.communicationchannel.zendesk.dependency/lib/async-http-client-1.7.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/metric-platform/platform-extensions/org.eclipse.scava.platform.communicationchannel.zendesk.dependency/lib/slf4j-simple-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/metric-platform/platform-extensions/org.eclipse.scava.platform.communicationchannel.zendesk.dependency/lib/slf4j-api-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/metric-platform/platform-extensions/org.eclipse.scava.platform.communicationchannel.zendesk.dependency/lib/handy-uri-templates-1.1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

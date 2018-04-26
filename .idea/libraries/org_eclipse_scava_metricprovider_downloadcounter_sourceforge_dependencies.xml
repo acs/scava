@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="org.eclipse.scava.metricprovider.downloadcounter.sourceforge.dependencies">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/metric-platform/metric-providers/org.eclipse.scava.metricprovider.downloadcounter.sourceforge.dependencies/json-lib-2.4-jdk15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/metric-platform/metric-providers/org.eclipse.scava.metricprovider.downloadcounter.sourceforge.dependencies/json-smart-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/metric-platform/metric-providers/org.eclipse.scava.metricprovider.downloadcounter.sourceforge.dependencies/commons-lang3-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/metric-platform/metric-providers/org.eclipse.scava.metricprovider.downloadcounter.sourceforge.dependencies/json-simple-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/metric-platform/metric-providers/org.eclipse.scava.metricprovider.downloadcounter.sourceforge.dependencies/jersey-bundle-1.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/metric-platform/metric-providers/org.eclipse.scava.metricprovider.downloadcounter.sourceforge.dependencies/apache-commons-lang.jar!/" />
+      <root url="jar://$PROJECT_DIR$/metric-platform/metric-providers/org.eclipse.scava.metricprovider.downloadcounter.sourceforge.dependencies/json-path-0.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
