@@ -1,4 +1,4 @@
-$topnav-background-color: #222;
+$topnav-background-color:rgb(135,206,235);
 :host {
     display: block;
 }
@@ -54,7 +54,7 @@ $topnav-background-color: #222;
         outline: none;
     }
 
-    h1 {
+    h2 {
         font-weight: 300;
         margin-top: 20px;
         margin-bottom: 10px;
@@ -86,10 +86,5 @@ $topnav-background-color: #222;
     }
     .form-content {
         padding: 40px 0;
-    }
-    .user-avatar {
-        -webkit-border-radius: 50%;
-        border-radius: 50%;
-        border: 2px solid #fff;
     }
 }
