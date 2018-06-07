@@ -30,7 +30,7 @@ import logging
 import requests
 
 
-from grimoire_elk.elk.elastic import ElasticSearch
+from grimoire_elk.elastic import ElasticSearch
 
 # Filters to be supported from OSSMeter metrics items
 OSS_FILTERS = ['project', 'metric_class', 'metric_name', 'metric_es_name']
@@ -122,7 +122,7 @@ def get_elastic_items(elastic, elastic_scroll_id=None):
             "scroll": max_process_items_pack_time,
             "scroll_id": elastic_scroll_id
         }
-        res = requests.post(url, data=json.dumps(scroll_data))
+        res = requests.post(url, data=json.dumps(scroll_data), headers=HEADERS_JSON)
     else:
         query = """
         {
@@ -134,8 +134,8 @@ def get_elastic_items(elastic, elastic_scroll_id=None):
         }
         """
 
-        # logging.debug("%s\n%s", url, json.dumps(json.loads(query), indent=4))
-        res = requests.post(url, data=query)
+        logging.debug("%s\n%s", url, json.dumps(json.loads(query), indent=4))
+        res = requests.post(url, data=query, headers=HEADERS_JSON)
 
     rjson = None
     try:
@@ -181,7 +181,7 @@ def add_filters_item(filters, es_url, es_in_index, es_out_index):
     elastic_out = ElasticSearch(es_url, es_out_index)
 
     # Time to just copy from in_index to our_index
-    total = elastic_out.bulk_upload_sync(fetch(elastic_in, filters), "uuid")
+    total = elastic_out.bulk_upload(fetch(elastic_in, filters), "uuid")
 
     # logging.info("Total items copied with filters: %i", total)
 

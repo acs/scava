@@ -3,7 +3,7 @@
 #
 # Copy JSON items with dependencies information to Elasticsearch
 #
-# Copyright (C) 2017 Bitergia
+# Copyright (C) 2018 Bitergia
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -28,7 +28,7 @@ import hashlib
 import json
 import logging
 
-from grimoire_elk.elk.elastic import ElasticSearch
+from grimoire_elk.elastic import ElasticSearch
 
 
 def get_params():
@@ -160,5 +160,5 @@ if __name__ == '__main__':
 
     if items:
         logging.info("Loading dependencies in Elasticsearch ...")
-        elastic.bulk_upload_sync(items, "uuid")
+        elastic.bulk_upload(items, "uuid")
         logging.info("Import completed.")
